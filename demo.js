@@ -22,7 +22,7 @@ const chain = new LLMChain({
 });
 
 const res = await chain.call({
-  product: "colorful socks",
+  product: "Web Development Agency",
 });
 
 console.log(res);
